@@ -1,0 +1,35 @@
+.signInColorH1{
+    color: #595959;
+    font-weight: 600;
+}
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.loginBox{
+    padding: 2rem;
+    background-color: white;
+    width: 25rem;
+    box-shadow: 1px 1px 5px 2px rgba(58, 86, 232, 0.1);
+    border-radius: 3px;
+}
+
+@media(max-width: 565px){
+    .loginBox{
+        width: 20rem;
+    }
+}
+
+.colorOne{
+    color: #bfbfbf;
+}
+
+.fontWeight{
+    font-weight: 500;
+}
